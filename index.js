@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 3000;
-const usersRouter = require("./user.js")
+const usersRouter = require("./routes/users.js")
 
 // MIDDLEWARE
 app.use(express. json())
